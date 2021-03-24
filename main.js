@@ -33,5 +33,8 @@ var app = new Vue ({
     showImage: function(position) {
       this.index = position;
     }
+  },
+  created: function() {
+    setInterval(this.next, 3000);
   }
 });
