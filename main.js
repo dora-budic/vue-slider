@@ -6,14 +6,22 @@ var app = new Vue ({
       './img/abu_dhabi.jpg',
       './img/cappadocia.jpg',
       './img/paris.jpg',
-      './img/thailand.jpg'
+      './img/thailand.jpg',
+      './img/amsterdam.jpg',
+      './img/prague.jpg',
+      './img/rio.jpg',
+      './img/rome.jpg',
     ],
     imageAlt: [
       'abu dhabi mosque sheikh zayed',
       'cappadocia balloons',
       'paris',
-      'thailand'
-    ]
+      'thailand',
+      'amsterdam',
+      'prague',
+      'rio de janeiro',
+      'rome'
+    ],
   },
   methods: {
     next: function() {

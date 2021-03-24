@@ -28,6 +28,10 @@
   color: #A6B9FF;
 }
 
+.slider-container i:hover {
+  color: #2E59FA;
+}
+
 .slider .dots i {
   color: #A6B9FF;
   margin: 10px;
