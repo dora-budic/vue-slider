@@ -4,22 +4,14 @@ var app = new Vue ({
     index: 0,
     imageSrc: [
       './img/abu_dhabi.jpg',
-      './img/amsterdam.jpg',
       './img/cappadocia.jpg',
       './img/paris.jpg',
-      './img/prague.jpg',
-      './img/rio.jpg',
-      './img/rome.jpg',
       './img/thailand.jpg'
     ],
     imageAlt: [
       'abu dhabi mosque sheikh zayed',
-      'amsterdam',
       'cappadocia balloons',
       'paris',
-      'prague',
-      'rio de janeiro copacabana',
-      'rome piazza navona',
       'thailand'
     ]
   },
@@ -37,6 +29,9 @@ var app = new Vue ({
       } else {
         this.index = this.imageSrc.length - 1;
       }
+    },
+    showImage: function(position) {
+      this.index = position;
     }
   }
 });

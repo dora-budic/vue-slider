@@ -23,7 +23,11 @@
           </div>
         </div>
         <div class="dots">
-          
+          <i class="fas fa-circle"
+            v-for="dot in imageSrc.length"
+            :class="(dot - 1 == index) ? 'active' : '' "
+            @click="showImage(dot-1)"
+          ></i>
         </div>
       </div>
     </div>

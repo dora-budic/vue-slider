@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .slider-container {
@@ -24,4 +25,14 @@
 .slider-container i {
   font-size: 50px;
   margin: 0 15px;
+  color: #A6B9FF;
+}
+
+.slider .dots i {
+  color: #A6B9FF;
+  margin: 10px;
+}
+
+.slider .dots i.active {
+  color: #2E59FA;
 }
