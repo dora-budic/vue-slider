@@ -3,3 +3,25 @@
   padding: 0;
   margin: 0;
 }
+
+.slider {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-container .images img {
+  width: 600px;
+}
+
+.slider-container i {
+  font-size: 50px;
+  margin: 0 15px;
+}
